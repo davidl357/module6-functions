@@ -5,14 +5,14 @@
 # Create a variable `ten` that is the result of passing 7 to your `AddThree` function 
 
 # Takes in a number and adds 3 to it
+
 addThree <- function(number) {
   ten <- number + 3
-  
   return(ten)
 }
 
 # Print and combine string and return value
-print(paste(number, "plus 3 is ", addThree(7)))
+print(addThree(7))
 
 # Define a function `ImperialToMetric` that takes in two arguments: a number of feet
 # and a number of inches
@@ -29,5 +29,5 @@ ImperialToMetric <- function(feet, inches) {
 }
 
 # Print and combine string and return value
-print(paste(feet, "feet, ", inches, "inches is ", ImperialToMetric(5, 9), "meters"))
+print(ImperialToMetric(5, 9))
 
